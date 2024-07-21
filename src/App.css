@@ -1,0 +1,75 @@
+* {
+    font-size: 1.5vw;
+}
+
+body {
+    background-color: azure;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+center {
+    text-align: center;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+label {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+input[type="number"] {
+    font-size: 1rem;
+    padding: 0.5rem;
+    width: 4rem;
+    margin-left: 1vw;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+input[type="checkbox"] {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 1vw;
+}
+
+.btn {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: #007BFF;
+}
+
+.Toastify__toast {
+    font-size: 1rem;
+}
