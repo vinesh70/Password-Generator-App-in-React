@@ -1,4 +1,4 @@
-# Password Generator App
+# Password Generator App in React
 
 ## Description
 
